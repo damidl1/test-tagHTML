@@ -5,31 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="https://www.google.it/" target="_blank">
-    <link rel="icon" href="./assets/favicon-32x32.png" type="image/x-icon">
-    <title>Test Tag HTML</title>
+    <base href="index.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <title>HTML World</title>
     <style>
         body {
             background-color: yellowgreen;
         }
-    </style>
+       </style>
 </head>
 
 <body>
     <header>
-        <h1>Test di tutti i tag HTML</h1>
-    </header>
+        <div id="logo">
+        <h1>HTML World</h1>
+        <img src="./assets/html-tag-base.png" alt="logo html" width="400px">
+    </div>
+</header>
+    <hr>
+    <div id="navigation">
     <nav>
         <h1>Benvenuto sulla mia pagina</h1>
         <p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </p>  
-    </nav>
+        <ul>
+            <li><button><a href="index.html"> Home</a></button></li>
+            <li><button><a href="media.html"> Media Gallery</a></button></li>
+            <li><button><a href="form-Input.html"> Compila il form</a></button></li>
+        </ul>
+        </p>
+    
+</nav>
+</div>
     <main>
+        <section>
         <address>
             <p>
                 Damiano D. <br>
@@ -38,33 +46,75 @@
                 IT <br>
                 Contattami con le seguenti modalità:
             <ul>
-                <li><a href="mailto:damidlmail@gmail.com"> Inviami una mail</a><br>
+                <li><a href="mailto:damidlmail@gmail.com"> Inviami una mail</a></li><br>
                 <li><a href="tel:+393333300000"> Chiamami</a></li>
-                </li>
+                
             </ul>
             </p>
         </address>
+    </section>
+        <hr>
+        <section>
         <article>
             <h1>Questo è un articolo prova:</h1>
             <p>Paragrafo per creare un articolo prova.</p>
-            <p><img src="./assets/immagineHtml.png" alt="logo html"></p>
-            <!-- immagine non viene visualizzata correttamente -->
+            <p><a href="https://it.wikipedia.org/wiki/Sviluppatore_web" target="_blank">
+                <img src="./assets/webpic.jpg" alt="scrittura codice"></p>
+            </a>
         </article>
+        <p>Per tutta la documentazione riguardante <strong>HTML</strong>, cliccare il seguente link:</p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#text_content" target="_blank">Html Elements</a>
+    </section>
+  <hr>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br>
             Incidunt iusto soluta quisquam corporis facere sed exercitationem ipsum sapiente at mollitia, <br>
         <aside>
-            tenetur dolores repellendus excepturi omnis quaerat consequatur possimus aut laudantium?    
+            tenetur dolores repellendus excepturi omnis quaerat consequatur possimus aut laudantium?
         </aside>
-
+<section>
+    <h2>Citazione: </h2>
+    <blockquote>
+        <p>“I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere.”
+            <footer>
+                <b> Eric Steven Raymond</b></footer>
         </p>
-        <p><h1>Lorem ipsum dolor sit, amet consectetur adipisicing</h1>
-        <h2> Incidunt iusto soluta quisquam corporis facere </h2>
-        <h3>sed exercitationem ipsum sapiente at mollitia,</h3>
-        <h4> tenetur dolores repellendus excepturi omnis</h4>
-        <h5>quaerat consequatur possimus aut laudantium?</h5>
-        <h6>Lorem ipsum dolor sit, amet consectetur adipisicing</h6>
-    </p>
+    </blockquote>
+    <p>Questa è una prova <bdi>الرجل القوي إيان:</bdi>
+       </p>
+       <p>
+        <bdo>الرجل القوي إيان:</bdo> 
+       </p>
+</section>
+        </p>
+        <hgroup>
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing</h1>
+            <h2> Incidunt iusto soluta quisquam corporis facere </h2>
+            <h3>sed exercitationem ipsum sapiente at mollitia,</h3>
+            <h4> tenetur dolores repellendus excepturi omnis</h4>
+            <h5>quaerat consequatur possimus aut laudantium?</h5>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing</h6>
+        </hgroup>
+        <hr>
+        <section>
+            <h3>Ma cosa significano HTML e CSS?</h3>
+<dl>
+    <dt> 
+       <abbr title="Hypertext Markup Language">HTML</abbr>
+    </dt>
+    <dd>
+        sigla di: HYPERTEXT MARKUP LANGUAGE
+    </dd>
+</dl>
+<dl>
+    <dt>
+        <abbr title="Cascading Style Sheets">CSS</abbr> 
+    </dt>
+    <dd>
+        sigla di: CASCADING STYLE SHEETS
+    </dd>
+</dl>
 
+</section>
     </main>
     <footer>
 
