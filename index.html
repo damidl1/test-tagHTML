@@ -13,6 +13,14 @@
             background-color: yellowgreen;
         }
        </style>
+        <script>
+          function salutaUtente () {
+            var nome = prompt ('inserisci il tuo nome: ')
+            if (nome) {
+                alert('Ciao, ' + nome + "! Benvenuto sulla pagina!");
+            }
+          }
+           </script>
 </head>
 
 <body>
@@ -26,6 +34,7 @@
     <div id="navigation">
     <nav>
         <h1>Benvenuto sulla mia pagina</h1>
+        <button onclick="salutaUtente()">Saluta</button>
         <p>
         <ul>
             <li><button><a href="index.html"> Home</a></button></li>
@@ -56,18 +65,23 @@
         <hr>
         <section>
         <article>
-            <h1>Questo è un articolo prova:</h1>
-            <p>Paragrafo per creare un articolo prova.</p>
+            <h1>La vita di un programmatore</h1>
+            <p>Documentazione sui tag HTML</p>
             <p><a href="https://it.wikipedia.org/wiki/Sviluppatore_web" target="_blank">
                 <img src="./assets/webpic.jpg" alt="scrittura codice"></p>
             </a>
+            <p>
+                <blockquote>
+                    There is <del>nothing</del> <ins>no code</ins> either good or bad, but <del>thinking</del> <ins>running it</ins> makes it so.
+                </blockquote>
+            </p>
         </article>
         <p>Per tutta la documentazione riguardante <strong>HTML</strong>, cliccare il seguente link:</p>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#text_content" target="_blank">Html Elements</a>
     </section>
   <hr>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br>
-            Incidunt iusto soluta quisquam corporis facere sed exercitationem ipsum sapiente at mollitia, <br>
+        <p><q>Lorem ipsum dolor sit, amet consectetur adipisicing</q>  <br>
+            <s> Incidunt iusto soluta quisquam corporis facere sed exercitationem ipsum sapiente at mollitia,</s> <br>
         <aside>
             tenetur dolores repellendus excepturi omnis quaerat consequatur possimus aut laudantium?
         </aside>
@@ -76,7 +90,7 @@
     <blockquote>
         <p>“I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere.”
             <footer>
-                <b> Eric Steven Raymond</b></footer>
+                <cite><b> Eric Steven Raymond</b></cite></footer>
         </p>
     </blockquote>
     <p>Questa è una prova <bdi>الرجل القوي إيان:</bdi>
@@ -87,13 +101,14 @@
 </section>
         </p>
         <hgroup>
-            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing</h1>
+            <h1><mark> Lorem ipsum dolor sit, amet consectetur adipisicing</mark></h1>
             <h2> Incidunt iusto soluta quisquam corporis facere </h2>
             <h3>sed exercitationem ipsum sapiente at mollitia,</h3>
             <h4> tenetur dolores repellendus excepturi omnis</h4>
             <h5>quaerat consequatur possimus aut laudantium?</h5>
             <h6>Lorem ipsum dolor sit, amet consectetur adipisicing</h6>
         </hgroup>
+    
         <hr>
         <section>
             <h3>Ma cosa significano HTML e CSS?</h3>
@@ -113,11 +128,34 @@
         sigla di: CASCADING STYLE SHEETS
     </dd>
 </dl>
-
+<dl>
+    <dt>
+        <abbr title="JavaScript">JS</abbr> 
+    </dt>
+    <dd>
+        sigla di: JavaScript
+    </dd>
+</dl>
 </section>
-    </main>
+<p>
+    <h2>
+        Esempio di una funziona di Javascript: 
+    </h2>
+     Il metodo <code>push()</code> aggiunge uno o più elementi alla fine di un array. <br>
+   <span style="color: blue;" <h3> Tips utili: per <strong> formattare il testo </strong> su visual studio code, si può utilizzare la seguente shortcut: <br></h3></span>
+    <kbd>Ctrl</kbd> + <kbd>A</kbd> per selezionare tutto il codice <br>
+    <kbd>Ctrl</kbd> + <kbd>K</kbd> + <kbd>F</kbd> per formattare il testo. <br>
+    H <sub>2</sub> O <br>
+    Contenuto in aggiornamento...
+<samp>premi Ctrl + F5 per aggiornare la pagina</samp>
+</p>
+<hr>
+</main>
     <footer>
+ <em><strong>sito creato da damidl <sup> ©</sup></em> (e probabilmente non vorresti mai che fosse il tuo)</strong> <br>
+<time datetime="2023-06-07">07-06-2023 
 
+</time>
     </footer>
 </body>
 
